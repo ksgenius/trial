@@ -42,6 +42,7 @@ body {
   position: sticky;
   left: 0;
   top: 0;
+  z-index: 1000000;
 }
 nav img {
   width: 60px;
@@ -283,18 +284,6 @@ transform: scale(1.2);
 
 .form_contact {
   flex: 60%;
-}
-
-.links {
-  display: inline;
-  border: 1px solid black;
-  padding-top: 100px;
-}
-
-.links a img{
-  width: 10%;
-  border: 1px solid black;
-  border-radius: 20em;
 }
 
 .input {
