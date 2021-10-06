@@ -19,6 +19,13 @@ body {
   overflow: hidden;
 }
 
+hr {
+  border: #8039f3 1px solid;
+  box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
+  -webkit-box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
+  -moz-box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
+}
+
 /* --------------Hero Section---------------- */
 
 .glass {
@@ -204,6 +211,10 @@ nav ul li a.active {
   transform: rotate(45deg);
   box-shadow: 0 10px 12px -5px rgba(0, 0, 0, 0.4);
   z-index: -1;
+  border: #8039f3 3px solid;
+  box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
+  -webkit-box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
+  -moz-box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75); 
 }
 
 .element-1 {
@@ -241,6 +252,7 @@ nav ul li a.active {
   -webkit-box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
   -moz-box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
   position: relative;
+  overflow: hidden;
 }
 
 .story h1 {
