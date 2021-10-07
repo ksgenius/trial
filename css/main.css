@@ -29,7 +29,7 @@ hr {
 /* --------------Hero Section---------------- */
 
 .glass {
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(10, 5, 150, 0.1);
   padding: 1em;
   width: 90vw;
   min-height: 90vh;
@@ -39,10 +39,10 @@ hr {
   border-radius: 45px;
   overflow: hidden;
   backdrop-filter: blur(15px);
-  border: #8039f3 3px solid;
-  box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
-  -webkit-box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
-  -moz-box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
+  border: #8039f3 7px solid;
+  box-shadow: 0px 0px 15px 12px rgba(150,0,255,0.80);
+-webkit-box-shadow: 0px 0px 15px 12px rgba(150,0,255,0.75);
+-moz-box-shadow: 0px 0px 15px 12px rgba(150,0,255,0.75);
 }
 
 .nav {
@@ -251,11 +251,11 @@ nav ul li a.active {
   margin-left: 2em;
   margin-right: 2em;
   display: inline-block;
-  border: #8039f3 3px solid;
+  /* border: #8039f3 3px solid;
   box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
   -webkit-box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
-  -moz-box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75);
-  position: relative;
+  -moz-box-shadow: 0px 0px 15px 8px rgba(30, 0, 146, 0.75); */
+  position: relative; 
   overflow: hidden;
 }
 
