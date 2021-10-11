@@ -6,7 +6,8 @@
 }
 
 body {
-  background: linear-gradient(90deg, #eb9cff 0%,  #8834d6 100%);
+  /* background: linear-gradient(90deg, #eb9cff 0%,  #8834d6 100%); */
+  background: rgb(20, 20, 20);
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
@@ -36,7 +37,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
+  background-color:#9070DB;
   box-shadow: 0px 7px 20px 0px #00000040;
   height: 5rem;
   position: sticky;
@@ -45,7 +46,7 @@ body {
   z-index: 1000000;
 }
 nav img {
-  width: 60px;
+  width: 77px;
   margin-top: 10px;
   transition: transform .1s ease ;
 }
@@ -100,13 +101,18 @@ nav h1 a {
   margin-bottom: 0.5em;
   margin-top: inherit;
   width: 70%;
+  background: linear-gradient(90deg, #eb9cff 0%,  #8834d6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 .line_one a {
-  border: 2px solid rgb(255, 251, 0);
+  border: 2px solid #9370DB;
   border-radius: 50px;
   font-size: 1.5em;
-  color: rgb(255, 251, 0);
+  color: #9370DB;
   padding: 2px 20px;
   text-decoration: none;
   transition: 0.4s;
@@ -115,8 +121,24 @@ nav h1 a {
 }
 
 .line_one a:hover {
-  background-color: rgb(255, 251, 0);
-  color: rgb(0, 0, 0);
+  background-color: #9370DB;
+  color: #9370DB;
+}
+
+ .vid , .channel img {
+  border: #8039f3 7px  solid;
+  box-shadow: 0px 0px 40px 10px rgba(150,0,255,0.80),
+  inset 0px 0px 40px 10px rgba(150,0,255,0.80);
+}
+
+.container .box {
+  border: #8039f3 2px  solid;
+  box-shadow: 0px 0px 50px 10px rgba(150,0,255,0.3),
+  inset 0px 0px 190px 10px rgba(150,0,255,0.4);
+}
+
+hr {
+  border: #8039f3 1px  solid;
 }
 
 .img {
@@ -138,6 +160,10 @@ nav h1 a {
   color: white;
   font-size: 2em;
   margin-top: 2em;
+  background: linear-gradient(90deg, #eb9cff 0%,  #8834d6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .services hr {
   color: white;
@@ -161,11 +187,15 @@ transform: scale(1.2);
 
 .our a {
   text-decoration: none;
+  background: linear-gradient(90deg, #eb9cff 0%,  #8834d6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .our_hr {
   margin-inline: 30%  ;
-  border-color: #008cff;
+  border-color: #8834d6;
 }
 
 .Productoins h1 {
@@ -193,6 +223,7 @@ transform: scale(1.2);
   padding: 20px;
   border: 2px solid #ffffff;
   font-size: 1.5em;
+  color: #fff;
 }
 
 .vid {
@@ -216,7 +247,7 @@ transform: scale(1.2);
 .vid2 h3 {
   font-weight: 600;
   font-size: 40px;
-  color: #220096;
+  color: #fff;
 }
 
 .vid2 p {
@@ -228,7 +259,7 @@ transform: scale(1.2);
 .line {
   width: 283px;
   height: 3px;
-  background: #220096;
+  background: #fff;
   margin-top: 1rem;
   float: right;
 }
@@ -273,13 +304,27 @@ transform: scale(1.2);
   align-items: self-start;
 }
 
+.social-icon{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
 .contactme .box-c {
-  color: #220096;
   background: rgba(255, 255, 255, 0.3);
   padding: 20px;
   font-size: 2.5em;
   border: 2px solid #fff;
   flex: 40%;
+  background: linear-gradient(90deg, #eb9cff 0%,  #8834d6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
 
 .form_contact {
@@ -303,6 +348,7 @@ transform: scale(1.2);
 .submitBtn {
   border: 2px solid #fff;
   border-radius: 0;
+  color: #fff;
   outline: none;
   background: rgba(255, 255, 255, 0.459);
   padding: 10px 20px;

@@ -1,0 +1,197 @@
+.sec_one, .story, .glass {
+  position: relative;
+}
+
+.particle-container {
+  width: 100%;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.particle-container-bottom {
+  right: 0;
+  bottom: 0%;
+}
+
+.particle, .particle-1 {
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  width: 100px;
+  height: 100px;
+}
+
+@keyframes particle-animation-1 {
+  100% {
+    transform: translate3d(72vw, 6vh, 58px);
+  }
+}
+
+@keyframes particle-animation-2-1 {
+  100% {
+    transform: translate3d(58vw, 421vh, 55px);
+  }
+}
+
+.particle:nth-child(1) {
+  animation: particle-animation-1 5s infinite alternate;
+  opacity: 0.2;
+  transform: translate3d(82vw, 46vh, 62px);
+}
+
+.particle-1:nth-child(1) {
+  animation: particle-animation-1 10s infinite alternate;
+  opacity: 0.15;
+  transform: translate3d(70vw, 45vh, 94px);
+}
+
+.particle-2:nth-child(1) {
+  animation: particle-animation-1 10s infinite alternate;
+  opacity: 0.35;
+  transform: translate3d(60vw, 134vh, 14px);
+}
+
+@keyframes particle-animation-2 {
+  100% {
+    transform: translate3d(19vw, 49vh, 80px);
+  }
+}
+
+@keyframes particle-animation-2-2 {
+  100% {
+    transform: translate3d(57vw, 48vh, 96px);
+  }
+}
+
+.particle:nth-child(2) {
+  animation: particle-animation-2 5s infinite alternate;
+  opacity: 0.06;
+  transform: translate3d(14vw, 96vh, 65px);
+}
+
+.particle-1:nth-child(2) {
+  animation: particle-animation-2 10s infinite alternate;
+  opacity: 0.25;
+  transform: translate3d(27vw, 136vh, 47px);
+}
+
+.particle-2:nth-child(2) {
+  animation: particle-animation-2 10s infinite alternate;
+  opacity: 0.98;
+  transform: translate3d(82vw, 292vh, 28px);
+}
+
+@keyframes particle-animation-3 {
+  100% {
+    transform: translate3d(19vw, 74vh, 93px);
+  }
+}
+
+@keyframes particle-animation-2-3 {
+  100% {
+    transform: translate3d(82vw, 314vh, 79px);
+  }
+}
+
+.particle:nth-child(3) {
+  animation: particle-animation-3 5s infinite alternate;
+  opacity: 0.9;
+  transform: translate3d(14vw, 18vh, 18px);
+}
+
+.particle-1:nth-child(3) {
+  animation: particle-animation-3 10s infinite alternate;
+  opacity: 0.34;
+  transform: translate3d(17vw, 426vh, 3px);
+}
+
+.particle-2:nth-child(3) {
+  animation: particle-animation-3 10s infinite alternate;
+  opacity: 0.7;
+  transform: translate3d(15vw, 127vh, 21px);
+}
+
+@keyframes particle-animation-4 {
+  100% {
+    transform: translate3d(21vw, 4vh, 19px);
+  }
+}
+
+@keyframes particle-animation-2-4 {
+  100% {
+    transform: translate3d(3vw, 351vh, 35px);
+  }
+}
+
+.particle:nth-child(4) {
+  animation: particle-animation-4 5s infinite alternate;
+  opacity: 0.85;
+  transform: translate3d(68vw, 18vh, 57px);
+}
+
+.particle-1:nth-child(4) {
+  animation: particle-animation-4 10s infinite alternate;
+  opacity: 0.4;
+  transform: translate3d(10vw, 186vh, 7px);
+}
+
+.particle-2:nth-child(4) {
+  animation: particle-animation-4 10s infinite alternate;
+  opacity: 0.08;
+  transform: translate3d(31vw, 299vh, 19px);
+}
+
+@keyframes particle-animation-5 {
+  100% {
+    transform: translate3d(90vw, 60vh, 83px);
+  }
+}
+
+@keyframes particle-animation-2-5 {
+  100% {
+    transform: translate3d(7vw, 378vh, 70px);
+  }
+}
+
+.particle:nth-child(5) {
+  animation: particle-animation-5 5s infinite alternate;
+  opacity: 0.6;
+  transform: translate3d(39vw, 40vh, 74px);
+}
+
+.particle-1:nth-child(5) {
+  animation: particle-animation-5 10s infinite alternate;
+  opacity: 0.05;
+  transform: translate3d(19vw, 20vh, 42px);
+}
+
+.particle-2:nth-child(5) {
+  animation: particle-animation-5 10s infinite alternate;
+  opacity: 0.78;
+  transform: translate3d(78vw, 388vh, 63px);
+}
+
+@media only screen and (max-width: 600px) {
+  .particle, .particle-1, .particle-2 {
+    height: 50px;
+    width: 50px;
+  }
+  .info_img {
+    order: 1;
+  }
+  .info_content {
+    order: 2;
+  }
+  #info p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left !important;
+    margin-bottom: 20px;
+  }
+  #hire_me {
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=bg-animation.css.map */

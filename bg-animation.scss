@@ -1,0 +1,91 @@
+.sec_one, .story, .glass{
+    position: relative;
+}
+.particle-container{
+	width: 100%;
+	overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+	&-bottom{
+		right: 0;
+		bottom: 0%;
+	}
+}
+.particle, .particle-1 {
+	position: absolute;
+ 	border-radius: 50%;
+     z-index: -1;
+	 width: 100px;
+	 height: 100px;
+}
+
+@for $i from 1 through 5 {
+	@keyframes particle-animation-#{$i} {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(100) * 1vh), (random(100) * 1px));
+		}
+	}
+	@keyframes particle-animation-2-#{$i} {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(500) * 1vh), (random(100) * 1px));
+		}
+	}
+	
+	.particle:nth-child(#{$i}){
+		animation: particle-animation-#{$i} 5s infinite alternate;
+		// $size: random(5) + 5 + px;
+		opacity: random(100)/100;
+		// animation-delay: -$i * .2s;
+		transform: translate3d((random(90) * 1vw), (random(100) * 1vh), (random(100) * 1px));
+		// background: hsl(random(360), 70%, 50%);
+
+
+	}
+	.particle-1:nth-child(#{$i}){
+		animation: particle-animation-#{$i} 10s infinite alternate;
+		opacity: random(100)/100;
+		// animation-delay: -$i * .2s;
+		transform: translate3d((random(90) * 1vw), (random(500) * 1vh), (random(100) * 1px));
+		// background: hsl(random(360), 70%, 50%);
+	}
+	.particle-2:nth-child(#{$i}){
+		animation: particle-animation-#{$i} 10s infinite alternate;
+		opacity: random(100)/100;
+		// animation-delay: -$i * .2s;
+		transform: translate3d((random(90) * 1vw), (random(400) * 1vh), (random(100) * 1px));
+		// background: hsl(random(360), 70%, 50%);
+		
+	}
+}
+
+
+// media query for all
+@media only screen and (max-width:600px) {
+	
+	.particle, .particle-1, .particle-2{
+		// display: none;
+		height: 50px;width: 50px;	}
+
+		.info_img{
+			order: 1;
+		}
+		.info_content{
+			order: 2;
+			// display: none;
+		}
+		#info p {
+			font-size: 16px;
+			line-height: 1.6;
+			text-align: left
+			!important; 
+			margin-bottom: 20px;
+		}
+		#hire_me{
+			margin-bottom: 20px;
+		}
+
+		nav ul li a {
+			font-size: 14px;
+		}
+}
