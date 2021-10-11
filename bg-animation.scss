@@ -84,8 +84,19 @@
 		#hire_me{
 			margin-bottom: 20px;
 		}
-
+		.glass{
+			width: 95vw;
+			padding: 10px;
+		}
+		nav{
+			flex-direction: column;
+			padding: 10px 0;
+		}
 		nav ul li a {
 			font-size: 14px;
+		}
+		.footer  {
+			padding-top: 50px;
+			height: auto;
 		}
 }
